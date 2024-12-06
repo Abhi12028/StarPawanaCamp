@@ -3,22 +3,23 @@
 	<div ref="heroSection"
 		class="panel z-0 overflow-hidden hero-section bg-cover bg-no-repeat bg-center w-full min-h-screen ">
 		<nav class="flex flex-row justify-between mx-8 md:mx-12 py-4">
-			<img class="w-20 md:w-24  mix-blend-multiply" src="/assets/LOGO.png" alt="">
-
+			<img class="w-20 md:w-24 rounded-full" src="/assets/LOGO.png" alt="">
+			<!-- mix-blend-multiply -->
 			<div class="flex justify-center items-center">
-				<div class="md:grid hidden grid-cols-4 gap-10 mr-10 text-white ">
+				<div class="md:grid hidden grid-cols-4 gap-10 mr-10 text-[#345E40] ">
 					<a href="">Home</a>
 					<a href="">About</a>
 					<a href="">Gallary</a>
 					<a href="">Contact</a>
 				</div>
-				<button class="md:w-36 w-24 h-8 md:h-12 border-2 rounded-xl text-sm text-white">BOOK</button>
+				<a href="tel:8600055453"><button
+						class="md:w-36 w-24 h-8 md:h-12 border-2 border-[#345E40] rounded-xl text-sm text-[#345E40]">BOOK</button></a>
 			</div>
 		</nav>
 
 		<!-- hero section text -->
 		<div>
-			<div class="text-white max-w-lg md:ml-24 mx-8 mt-[35rem] md:mt-36">
+			<div class="text-white max-w-lg md:ml-24 mx-8 mt-[18rem] md:mt-36">
 				<h2 clas="">Camp. Relax. Repeat.</h2>
 				<h1 class=" text-3xl md:text-5xl font-bold text-left capitalize">Escape to Pawana: Where Every Campfire
 					Tells a
@@ -28,7 +29,8 @@
 		</div>
 
 	</div>
-	<div ref="timelineSection" class="panel z-10 h-full bg_image">
+	<div ref="timelineSection"
+		class="panel z-10 h-full bg_image bg-center bg-cover rounded-t-[5rem] md:rounded-t-[10rem]">
 		<!-- four section -->
 		<div class=" mx-auto md:py-8">
 			<div class="grid grid-cols-1 md:grid-cols-4 place-content-center md:divide-x-2 mt-8 gap-y-8">
@@ -194,8 +196,8 @@
 
 			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img3.jpeg" alt="">
 
-			<img class="rounded-lg" src="/assets/GallaryImage/img10.jpeg" alt="">
-			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img12.jpeg" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img18.jpeg" alt="">
+			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img17.jpeg" alt="">
 
 			<img class="rounded-lg " src="/assets/GallaryImage/img8.jpeg" alt="">
 
@@ -204,7 +206,7 @@
 			<img class="rounded-lg" src="/assets/GallaryImage/img13.jpeg" alt="">
 			<img class="rounded-lg" src="/assets/GallaryImage/img14.jpeg" alt="">
 			<!-- <img class="rounded-lg" src="/assets/GallaryImage/img9.jpeg" alt=""> -->
-			<img class="rounded-lg" src="/assets/GallaryImage/img15.jpeg" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img19.jpeg" alt="">
 		</div>
 
 
@@ -263,7 +265,7 @@
 					today and enjoy a memorable lakeside experience!</p>
 			</div>
 			<div class="mb-10 text-[#97A483] mx-auto w-full max-w-sm p-4 bg-[#97A483] border rounded-lg shadow sm:p-8">
-				<h5 class="mb-4 text-xl font-medium text-black">Festival plan</h5>
+				<h5 class="mb-4 text-xl font-medium text-black">Regular plan</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold text-[#345E40]">₹</span>
 					<span class="text-5xl font-extrabold tracking-tight text-[#345E40]">999</span>
@@ -342,10 +344,167 @@
 			</div>
 			<div
 				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm p-4 bg- border-2 bg-[#97A483] rounded-lg shadow sm:p-8">
-				<h5 class="mb-4 text-xl font-medium text-black ">Festival plan</h5>
+				<h5 class="mb-4 text-xl font-medium text-black ">Cottage plan</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold text-[#345E40]">₹</span>
 					<span class="text-5xl font-extrabold tracking-tight text-[#345E40]">1599</span>
+					<span class="ms-1 text-xl font-normal text-black ">/Person</span>
+				</div>
+				<ul role="list" class="space-y-5 my-7">
+					<li class="flex items-center">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Check-in: 4
+							PM & Checkout: 11 AM </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3"> 2/3
+							person
+							sharing tents </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3"> Snacks:
+							Pakoda & Tea/Coffee </span>
+					</li>
+					<li class="flex items-center">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Barbeque
+							(Veg/Non-Veg) - Limited</span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Unlimited
+							dinner (Veg/Nonveg) </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3"> Common
+							Campfire, Trolley speaker, Common Toilets, Free parking </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Activities:
+							Archery, Dart Game, Cricket, Badminton, Carrom, Volleyball, and more </span>
+					</li>
+				</ul>
+			</div>
+			<div class="mb-10 text-[#97A483] mx-auto w-full max-w-sm p-4 bg-[#97A483] border rounded-lg shadow sm:p-8">
+				<h5 class="mb-4 text-xl font-medium text-black">31st Regular plan</h5>
+				<div class="flex items-baseline text-gray-900 dark:text-white">
+					<span class="text-3xl font-semibold text-[#345E40]">₹</span>
+					<span class="text-5xl font-extrabold tracking-tight text-[#345E40]">1499</span>
+					<span class="ms-1 text-xl font-normal text-black ">/Person</span>
+				</div>
+				<ul role="list" class="space-y-5 my-7 text-black">
+					<li class="flex items-center">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Check-in: 4
+							PM & Checkout: 11 AM </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3"> 2/3
+							person
+							sharing tents </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3"> Snacks:
+							Pakoda & Tea/Coffee </span>
+					</li>
+					<li class="flex items-center">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Barbeque
+							(Veg/Non-Veg) - Limited</span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Unlimited
+							dinner (Veg/Nonveg) </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3"> Common
+							Campfire, Trolley speaker, Common Toilets, Free parking </span>
+					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Activities:
+							Archery, Dart Game, Cricket, Badminton, Carrom, Volleyball, and more </span>
+					</li>
+				</ul>
+			</div>
+			<div
+				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm p-4 bg- border-2 bg-[#97A483] rounded-lg shadow sm:p-8">
+				<h5 class="mb-4 text-xl font-medium text-black ">31st Cottage plan</h5>
+				<div class="flex items-baseline text-gray-900 dark:text-white">
+					<span class="text-3xl font-semibold text-[#345E40]">₹</span>
+					<span class="text-5xl font-extrabold tracking-tight text-[#345E40]">2199</span>
 					<span class="ms-1 text-xl font-normal text-black ">/Person</span>
 				</div>
 				<ul role="list" class="space-y-5 my-7">
@@ -437,6 +596,7 @@
 						<h3 class="text-xl font-semibold mb-4">Contact Us</h3>
 						<p class="mb-2">Email: campinginpawana2022@gmail.com</p>
 						<p class="mb-2">Phone: +91-8600055453 </p>
+						<p class="mb-2">Phone: +91-9766435008 </p>
 						<p>Address: 123 Camping Street, Outdoor City</p>
 					</div>
 
@@ -474,12 +634,12 @@
 
 <style scoped>
 .bg_image {
-	background-image: url(/assets/white-texture.jpg);
+	background-image: url(/assets/white-texture.webp);
 }
 
 .hero-section {
 	/* position: relative; */
-	background-image: url(/assets/GallaryImage/img1.jpeg);
+	background-image: url(/assets/GallaryImage/img19.jpeg);
 }
 </style>
 
