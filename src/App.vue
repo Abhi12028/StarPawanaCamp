@@ -6,14 +6,14 @@
 			<img class="w-20 md:w-24 rounded-full" src="/assets/LOGO.png" alt="">
 			<!-- mix-blend-multiply -->
 			<div class="flex justify-center items-center">
-				<div class="md:grid hidden grid-cols-4 gap-10 mr-10 text-[#345E40] ">
+				<div class="md:grid hidden grid-cols-4 gap-10 mr-10 text-white ">
 					<a href="">Home</a>
 					<a href="">About</a>
 					<a href="">Gallary</a>
 					<a href="">Contact</a>
 				</div>
-				<a href="tel:8600055453"><button
-						class="md:w-36 w-24 h-8 md:h-12 border-2 border-[#345E40] rounded-xl text-sm text-[#345E40]">BOOK</button></a>
+				<a href="https://cbl.link/9m1XmzP"><button
+						class="md:w-36 w-24 h-8 md:h-12 border-2 border-white rounded-xl text-sm text-white">BOOK</button></a>
 			</div>
 		</nav>
 
@@ -249,8 +249,8 @@
 		</div>
 
 		<!-- pricing card -->
-		<div class="grid md:grid-cols-2 mx-6 md:mx-0">
-			<div class="md:col-span-2 my-20">
+		<div class="grid md:grid-cols-3 mx-6 md:mx-0">
+			<div class="md:col-span-3 my-20">
 				<h2 class="mx-auto text-[#345E40]  text-center text-3xl md:text-5xl  font-extrabold">OFFER PACKAGES</h2>
 				<p class="text-center max-w-3xl mx-auto mt-4 md:mt-8 md:text-lg text-base text-[#888787]">Explore our
 					camping
@@ -369,7 +369,7 @@
 						</svg>
 						<span class="text-base font-normal leading-tight text-black  ms-3"> 2/3
 							person
-							sharing tents </span>
+							sharing Cottage </span>
 					</li>
 					<li class="flex">
 						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
@@ -425,7 +425,7 @@
 				<h5 class="mb-4 text-xl font-medium text-black">31st Regular plan</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
 					<span class="text-3xl font-semibold text-[#345E40]">₹</span>
-					<span class="text-5xl font-extrabold tracking-tight text-[#345E40]">1499</span>
+					<span class="text-5xl font-extrabold tracking-tight text-[#345E40]">1699</span>
 					<span class="ms-1 text-xl font-normal text-black ">/Person</span>
 				</div>
 				<ul role="list" class="space-y-5 my-7 text-black">
@@ -466,7 +466,7 @@
 						</svg>
 						<span class="text-base font-normal leading-tight text-black  ms-3">
 							Barbeque
-							(Veg/Non-Veg) - Limited</span>
+							(Veg/Non-Veg) - Unlimited</span>
 					</li>
 					<li class="flex">
 						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
@@ -497,9 +497,19 @@
 							Activities:
 							Archery, Dart Game, Cricket, Badminton, Carrom, Volleyball, and more </span>
 					</li>
+					<li class="flex">
+						<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+							<path
+								d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+						</svg>
+						<span class="text-base font-normal leading-tight text-black  ms-3">
+							Optional Boating & Kayaking (Paid)
+						</span>
+					</li>
 				</ul>
 			</div>
-			<div
+			<!-- <div
 				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm p-4 bg- border-2 bg-[#97A483] rounded-lg shadow sm:p-8">
 				<h5 class="mb-4 text-xl font-medium text-black ">31st Cottage plan</h5>
 				<div class="flex items-baseline text-gray-900 dark:text-white">
@@ -577,7 +587,7 @@
 							Archery, Dart Game, Cricket, Badminton, Carrom, Volleyball, and more </span>
 					</li>
 				</ul>
-			</div>
+			</div> -->
 		</div>
 
 		<!-- footer  -->
@@ -597,7 +607,7 @@
 						<p class="mb-2">Email: campinginpawana2022@gmail.com</p>
 						<p class="mb-2">Phone: +91-8600055453 </p>
 						<p class="mb-2">Phone: +91-9766435008 </p>
-						<p>Address: 123 Camping Street, Outdoor City</p>
+						<p>Address: At Jowan No. 3, Thakursai Ajiwali Road, Mawal, Pune 411016</p>
 					</div>
 
 					<!-- Quick Links -->
@@ -616,8 +626,8 @@
 						<h3 class="text-xl font-semibold mb-4">Follow Us</h3>
 						<div class="flex gap-4">
 							<a href="#" class="hover:text-gray-300">Facebook</a>
-							<a href="#" class="hover:text-gray-300">Twitter</a>
-							<a href="#" class="hover:text-gray-300">Instagram</a>
+							<a href="#" class="hover:text-gray-300">WhatsApp</a>
+							<a href="" class="hover:text-gray-300">Instagram</a>
 						</div>
 					</div>
 				</div>
@@ -639,7 +649,7 @@
 
 .hero-section {
 	/* position: relative; */
-	background-image: url(/assets/GallaryImage/img19.jpeg);
+	background-image: url(/assets/hero_bg.jpeg);
 }
 </style>
 
