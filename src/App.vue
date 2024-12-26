@@ -566,6 +566,21 @@
 		</footer>
 
 	</div>
+
+
+	<!-- Sticky Buttons -->
+	<div class="fixed bottom-0 left-auto right-0  shadow-lg p-4 z-50">
+		<div class="container mx-auto flex justify-center gap-4">
+			<a href="https://cbl.link/9m1XmzP"> <button @click="bookNow"
+					class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-semibold transition-colors duration-300">
+					Book Now
+				</button></a>
+			<a href="tel:8600055453"> <button @click="contactUs"
+					class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-semibold transition-colors duration-300">
+					Contact Us
+				</button></a>
+		</div>
+	</div>
 </template>
 
 <style scoped>
