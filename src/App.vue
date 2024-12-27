@@ -249,12 +249,12 @@
 		</div>
 
 		<!-- pricing card -->
-		<div id="price" class="grid md:grid-cols-3 mx-6 md:mx-0">
-			<div class="md:col-span-3 my-20">
+		<div id="price" class="grid md:grid-cols-2 mx-6 md:mx-0">
+			<div class="md:col-span-2 my-20">
 				<h1 class="mx-auto text-[#345E40]  text-center text-3xl md:text-5xl  font-extrabold">OFFER PACKAGES</h1>
 				<p class="text-center max-w-3xl mx-auto mt-4 md:mt-8 md:text-lg text-base text-[#888787]">Explore our
 					camping
-					packages at Pawana
+					packages at Pawanamd:col-span-3
 					Lake, offering
 					everything
 					from
@@ -338,6 +338,14 @@
 								<path
 									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
 							</svg>
+							<span class="text-base leading-tight text-[#FFFF] ms-3">breakfast: Kanda Pohe & Tea</span>
+						</li>
+						<li class="flex">
+							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+							</svg>
 							<span class="text-base  leading-tight text-[#FFFF]  ms-3">
 								Activities:
 								Archery, Dart Game, Cricket, Badminton, Carrom, Volleyball, and more </span>
@@ -372,7 +380,8 @@
 								<path
 									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
 							</svg>
-							<span class="text-base leading-tight text-[#FFFF] ms-3">2/3 person sharing Cottage</span>
+							<span class="text-base leading-tight text-[#FFFF] ms-3">2 person sharing premium wooden
+								Cottage</span>
 						</li>
 						<li class="flex">
 							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
@@ -414,6 +423,14 @@
 								<path
 									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
 							</svg>
+							<span class="text-base leading-tight text-[#FFFF] ms-3">breakfast: Kanda Pohe & Tea</span>
+						</li>
+						<li class="flex">
+							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+							</svg>
 							<span class="text-base leading-tight text-[#FFFF] ms-3">Activities: Archery, Dart Game,
 								Cricket, Badminton, Carrom, Volleyball, and more</span>
 						</li>
@@ -423,9 +440,9 @@
 				</div>
 			</div>
 			<div
-				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/GallaryImage/img3.webp)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow ">
+				class="mb-10 md:col-span-2 text-[#97A483] mx-auto w-full max-w-3xl bg-[url(/assets/GallaryImage/img3.webp)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow ">
 				<div class="bg-black bg-opacity-30 w-full h-full md:p-8 p-4">
-					<h5 class="mb-4 text-xl font-medium text-white">NYE'24 Tent plan</h5>
+					<h5 class="mb-4 text-xl font-medium text-white">Dec 31th Tent plan</h5>
 					<div class="flex items-baseline text-gray-900 dark:text-white">
 						<span class="text-3xl font-semibold text-[#212121]">₹</span>
 						<span class="text-5xl font-extrabold tracking-tight text-[#212121]">1699</span>
@@ -439,8 +456,24 @@
 									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
 							</svg>
 							<span class="text-base  leading-tight text-[#FFFF]  ms-3">
-								Check-in: 4
+								Check-in: 3
 								PM & Checkout: 11 AM </span>
+						</li>
+						<li class="flex">
+							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+							</svg>
+							<span class="text-base  leading-tight text-[#FFFF]  ms-3">Big Parking Slot</span>
+						</li>
+						<li class="flex">
+							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+							</svg>
+							<span class="text-base  leading-tight text-[#FFFF]  ms-3">Welcome Drinks on arrival </span>
 						</li>
 						<li class="flex">
 							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
@@ -451,6 +484,15 @@
 							<span class="text-base  leading-tight text-[#FFFF]  ms-3"> 2/3
 								person
 								sharing tents </span>
+						</li>
+						<li class="flex">
+							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+							</svg>
+							<span class="text-base  leading-tight text-[#FFFF]  ms-3">Live DJ, Light show &
+								bonfire</span>
 						</li>
 						<li class="flex">
 							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
@@ -506,8 +548,17 @@
 								<path
 									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
 							</svg>
+							<span class="text-base  leading-tight text-[#FFFF]  ms-3">Cake Celebration &
+								Fireworks</span>
+						</li>
+						<li class="flex">
+							<svg class="flex-shrink-0 w-4 h-4 text-[#F0E5D8]" aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+								<path
+									d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+							</svg>
 							<span class="text-base  leading-tight text-[#FFFF]  ms-3">
-								AOptional Boating & Kayaking (Paid) </span>
+								Optional Boating & Kayaking (Paid) </span>
 						</li>
 					</ul>
 					<a class="mx-auto" href="https://cbl.link/9m1XmzP"><button
