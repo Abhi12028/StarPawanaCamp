@@ -7,10 +7,10 @@
 			<!-- mix-blend-multiply -->
 			<div class="flex justify-center items-center">
 				<div class="md:grid hidden grid-cols-4 gap-10 mr-10 text-white ">
-					<a href="">Home</a>
-					<a href="">About</a>
-					<a href="">Gallary</a>
-					<a href="">Contact</a>
+					<a href="#about">About</a>
+					<a href="#gallary">Gallary</a>
+					<a href="#price">Price</a>
+					<a href="#footer">Contact</a>
 				</div>
 				<a href="https://cbl.link/9m1XmzP"><button
 						class="md:w-36 w-24 h-8 md:h-12 border-2 border-white rounded-xl text-sm text-white">BOOK</button></a>
@@ -20,7 +20,7 @@
 		<!-- hero section text -->
 		<div>
 			<div class="text-white max-w-lg md:ml-24 mx-8 mt-[18rem] md:mt-36">
-				<h2 clas="">Camp. Relax. Repeat.</h2>
+				<h1 clas="">Camp. Relax. Repeat.</h1>
 				<h1 class=" text-3xl md:text-5xl font-bold text-left capitalize">Escape to Pawana: Where Every Campfire
 					Tells a
 					Story!</h1>
@@ -32,7 +32,7 @@
 	<div ref="timelineSection"
 		class="panel z-10 h-full bg_image bg-center bg-cover rounded-t-[5rem] md:rounded-t-[10rem]">
 		<!-- four section -->
-		<div class=" mx-auto md:py-8">
+		<div id="about" class=" mx-auto md:py-8">
 			<div class="grid grid-cols-1 md:grid-cols-4 place-content-center md:divide-x-2 mt-8 gap-y-8">
 
 				<div class="md:col-span-4 my-14 md:my-20">
@@ -182,31 +182,31 @@
 
 		<!-- gallary  -->
 
-		<div class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-4 mx-4 md:mx-20 md:my-20">
+		<div id="gallary" class="grid grid-flow-row grid-cols-1 md:grid-cols-3 gap-4 mx-4 md:mx-20 md:my-20">
 			<div class="md:col-span-3 my-14 md:my-20">
 				<h2 class="mx-auto text-[#345E40]  text-center text-3xl md:text-5xl  font-extrabold">Gallery</h2>
 				<p class="text-center max-w-3xl mx-auto mt-4 md:mt-8 md:text-lg text-base text-[#888787]">Take a glimpse
 					into the beauty of Pawana Lake through our gallery. From stunning sunsets to cozy campfires, see
 					what awaits you on your next adventure!</p>
 			</div>
-			<img class="rounded-lg" src="/assets/GallaryImage/img1.jpeg" alt="">
-			<img class="rounded-lg" src="/assets/GallaryImage/img2.jpeg" alt="">
-			<img class="rounded-lg" src="/assets/GallaryImage/img4.jpeg" alt="">
-			<img class="rounded-lg" src="/assets/GallaryImage/img5.jpeg" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img1.webp" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img2.webp" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img4.webp" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img5.webp" alt="">
 
-			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img3.jpeg" alt="">
+			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img3.webp" alt="">
 
-			<img class="rounded-lg" src="/assets/GallaryImage/img18.jpeg" alt="">
-			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img17.jpeg" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img18.webp" alt="">
+			<img class="rounded-lg md:col-span-2 md:row-span-2" src="/assets/GallaryImage/img17.webp" alt="">
 
-			<img class="rounded-lg " src="/assets/GallaryImage/img8.jpeg" alt="">
+			<img class="rounded-lg " src="/assets/GallaryImage/img8.webp" alt="">
 
-			<img class="rounded-lg" src="/assets/GallaryImage/img11.jpeg" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img11.webp" alt="">
 
-			<img class="rounded-lg" src="/assets/GallaryImage/img13.jpeg" alt="">
-			<img class="rounded-lg" src="/assets/GallaryImage/img14.jpeg" alt="">
-			<!-- <img class="rounded-lg" src="/assets/GallaryImage/img9.jpeg" alt=""> -->
-			<img class="rounded-lg" src="/assets/GallaryImage/img19.jpeg" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img13.webp" alt="">
+			<img class="rounded-lg" src="/assets/GallaryImage/img14.webp" alt="">
+			<!-- <img class="rounded-lg" src="/assets/GallaryImage/img9.webp" alt=""> -->
+			<img class="rounded-lg" src="/assets/GallaryImage/img19.webp" alt="">
 		</div>
 
 
@@ -249,7 +249,7 @@
 		</div>
 
 		<!-- pricing card -->
-		<div class="grid md:grid-cols-3 mx-6 md:mx-0">
+		<div id="price" class="grid md:grid-cols-3 mx-6 md:mx-0">
 			<div class="md:col-span-3 my-20">
 				<h2 class="mx-auto text-[#345E40]  text-center text-3xl md:text-5xl  font-extrabold">OFFER PACKAGES</h2>
 				<p class="text-center max-w-3xl mx-auto mt-4 md:mt-8 md:text-lg text-base text-[#888787]">Explore our
@@ -265,7 +265,7 @@
 					today and enjoy a memorable lakeside experience!</p>
 			</div>
 			<div
-				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/GallaryImage/img1.jpeg)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow ">
+				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/GallaryImage/img1.webp)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow ">
 				<div class="bg-black bg-opacity-30 w-full h-full md:p-8 p-4">
 					<h5 class="mb-4 text-xl font-medium text-white">Tent plan</h5>
 					<div class="flex items-baseline text-gray-900 dark:text-white">
@@ -348,7 +348,7 @@
 				</div>
 			</div>
 			<div
-				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/CottageGallaryImage/img19.jpeg)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow">
+				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/GallaryImage/img19.webp)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow">
 				<div class="bg-black bg-opacity-30 w-full h-full md:p-8 p-4">
 					<h5 class="mb-4 text-xl font-medium text-white">Cottage plan</h5>
 					<div class="flex items-baseline text-gray-900 dark:text-white">
@@ -423,7 +423,7 @@
 				</div>
 			</div>
 			<div
-				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/GallaryImage/img3.jpeg)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow ">
+				class="mb-10 text-[#97A483] mx-auto w-full max-w-sm bg-[url(/assets/GallaryImage/img3.webp)] bg-cover bg-opacity-20 bg-center border rounded-lg shadow ">
 				<div class="bg-black bg-opacity-30 w-full h-full md:p-8 p-4">
 					<h5 class="mb-4 text-xl font-medium text-white">NYE'24 Tent plan</h5>
 					<div class="flex items-baseline text-gray-900 dark:text-white">
@@ -517,7 +517,7 @@
 		</div>
 
 		<!-- footer  -->
-		<footer class="bg-[#345E40] pt-16 pb-8 px-4 relative overflow-hidden">
+		<footer id="footer" class="bg-[#345E40] pt-16 pb-8 px-4 relative overflow-hidden">
 			<!-- Background Text -->
 			<p
 				class="text-white opacity-10 text-7xl md:text-9xl font-bold text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
@@ -590,7 +590,7 @@
 
 .hero-section {
 	/* position: relative; */
-	background-image: url(/assets/hero_bg.jpeg);
+	background-image: url(/assets/GallaryImage/img1.webp);
 }
 </style>
 
